@@ -1,11 +1,11 @@
-import React from 'react'
+
 import './About.css'
 import about_img from '../../assets/about-img.png'
 import play_icon from '../../assets/play-icon.png'
 
 const About = ({setPlayState}) => {
   return (
-    <div id="about" className='about'> {/* Add id="about" here */}
+    <div id="about" className='about'> 
       <div className="about-left">
         <img src={about_img} alt="" className='about-img'/>
         <img src={play_icon} alt="" className='play-icon' onClick={() => {setPlayState(true)}}/>
